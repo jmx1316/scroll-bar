@@ -1,0 +1,91 @@
+body {
+    margin: 50px;
+}
+
+.scale_panel {
+    font-size: 12px;
+    color: #999;
+    width: 200px;
+    position: absolute;
+    line-height: 18px;
+    left: 60px;
+    top: -0px;
+}
+
+.scale_panel .r {
+    float: right;
+}
+
+.scale span {
+    background: url(scroll.gif) no-repeat;
+    width: 8px;
+    height: 16px;
+    position: absolute;
+    left: -2px;
+    top: -5px;
+    cursor: pointer;
+}
+
+.scale {
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    background-color: #E4E4E4;
+    border-left: 1px #83BBD9 solid;
+    width: 200px;
+    height: 3px;
+    position: relative;
+    font-size: 0px;
+    border-radius: 3px;
+}
+
+.scale div {
+    background-repeat: repeat-x;
+    background-color: #3BE3FF;
+    width: 0px;
+    position: absolute;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+}
+
+li {
+    font-size: 12px;
+    line-height: 50px;
+    position: relative;
+    height: 50px;
+    list-style: none;
+}
+
+.red {
+    background: red;
+    height: 40px;
+    width: 55px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+
+.green {
+    background: green;
+    height: 40px;
+    width: 55px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+
+.blue {
+    background: blue;
+    height: 40px;
+    width: 55px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
